@@ -1,15 +1,4 @@
-th {
-    text-align: left;
-}
-td, th{
-    padding-left: 20px;
-}
-td:first-child, th: first-child{
-    padding-left: 0;
-}
-th{
-    margin-bottom: 20px;
-}
+
 
 body{
     padding: 40px 20px 40px 20px; font-family: Arial, Helvetica;
@@ -32,6 +21,7 @@ h1{
     display: flex;
     flex-direction: row;
     
+    
 }
 .nom_presentation{
     font-size: xx-large;
@@ -52,12 +42,9 @@ header  a{
     margin-right: 10px;
     
 }
-header span {
-    display: block; 
-    font-size: small;
-    font-weight: lighter;
-}
-.div2{
+
+
+.image{
     width: 105px; height: 105px; 
     border-radius: 100%; 
     background:#666;
@@ -65,12 +52,7 @@ header span {
     -webkit-border-radius: 50px; -moz-border-radius: 50px;
     display: flex; flex-direction: column; 
      }
-thead th div { 
-    margin-bottom: 10px;
-}
-tbody{ 
-    text-align: left;
-}
+
 .div3{ 
     font-weight: bold; 
     color: dodgerblue; 
@@ -82,7 +64,7 @@ tbody{
 .div5 { 
     font-weight:lighter;
 }
-.div{
+.projets{
     margin-top: 30px; 
     margin-bottom: 30px; display:grid; 
     grid-template-columns: 1fr 1fr;
@@ -152,3 +134,21 @@ footer{
     font-weight: lighter; font-size: x-small;
 }
 
+thead th div { 
+    margin-bottom: 10px;
+}
+tbody{ 
+    text-align: left;
+}
+th {
+    text-align: left;
+}
+td, th{
+    padding-left: 20px;
+}
+td:first-child, th: first-child{
+    padding-left: 0;
+}
+th{
+    margin-bottom: 20px;
+}
