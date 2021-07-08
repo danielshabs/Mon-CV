@@ -30,8 +30,8 @@ h1{
 }
 .presentation{
     display: flex;
-    font-size: xx-large; 
-    flex-wrap: wrap;
+    flex-direction: row;
+    
 }
 .nom_presentation{
     font-size: xx-large;
@@ -41,13 +41,15 @@ h1{
      justify-content: space-between;
  }
 header  a{ 
-    margin-left: 10px; 
+    margin-left: 5px; 
     background: rgba(0, 0, 200, 0.3);
     border-radius: 3px;
     display: inline-block; 
     padding: 2px; font-size: x-small; 
     color: royalblue;
-    
+    margin-bottom: 90px;
+    margin-top: 45px;
+    margin-right: 10px;
     
 }
 header span {
